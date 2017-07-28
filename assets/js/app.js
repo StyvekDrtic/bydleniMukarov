@@ -7,6 +7,8 @@ $('.picture').each( function() {
                     $size   = $(this).data('size').split('x'),
                     $width  = $size[0],
                     $height = $size[1];
+                    console.log($height);
+                    console.log($width);
 
                 var item = {
                     src : $href,
