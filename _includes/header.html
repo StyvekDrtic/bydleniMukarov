@@ -1,0 +1,44 @@
+<header>
+  <div class="horniHeader">
+    <a href="https://styvekdrtic.github.io/bydleniSvojetice/">
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+    <div class="rychlyKontakty">
+      <div class="napisteNam">
+        <span>Napište nám</span>
+        <a href="mailto:simekostav@simekostav.cz">simekostav@simekostav.cz</a>
+      </div>
+      <div class="rozdelovak"></div>
+      <div class="zavolejteNam">
+        <span>Zavolejte nám</span>
+        <a href="tel:+420608214424">+420 608 214 424</a>
+      </div>
+    </div>
+    <div class="rychlyKontakty2">
+      <a href="tel:+420608214424"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      <div class="rozdelovak"></div>
+      <a href="simekostav@simekostav.cz"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <div class="dolniHeader">
+    <nav>
+      <ul>
+        <li {% if page.url == '/' %} class="active" {% endif %}>
+          <a href="https://styvekdrtic.github.io/bydleniSvojetice/">Domů</a>
+        </li>
+        <li {% if page.url == '/byty.html' %} class="active"{% endif %}>
+          <a href="https://styvekdrtic.github.io/bydleniSvojetice/byty">Byty</a>
+        </li>
+        <li {% if page.url == '/fotogalerie.html' %} class="active"{% endif %}>
+          <a href="https://styvekdrtic.github.io/bydleniSvojetice/fotogalerie">Fotogalerie</a>
+        </li>
+        <li {% if page.url == '/ceny.html' %} class="active"{% endif %}>
+          <a href="https://styvekdrtic.github.io/bydleniSvojetice/ceny">Ceny</a>
+        </li>
+        <li {% if page.url == '/kontakt.html' %} class="active"{% endif %}>
+          <a href="https://styvekdrtic.github.io/bydleniSvojetice/kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
