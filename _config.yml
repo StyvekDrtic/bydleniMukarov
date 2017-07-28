@@ -7,11 +7,11 @@
 
 # Site settings
 title: Bydlení Mukařov
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-keywords: Bydlení Mukařov, Byty Mukařov, Domy, na prodej, simekostav, u prahy, bydlení, bydlenimukarov.cz
+description: Levné bydlení v obci Mukařov - Srbín v klidném prostředí, 30km od centra Prahy.
+keywords: Bydlení Mukařov, Byty Mukařov, Domy, na prodej, simekostav, u prahy, bydlení, bydlenimukarov.cz, Mukařov, Srbín, levné bydlení, řadové rodinné domy, byty, terasa
 author: arkun.xyz
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bydleniSvojetice.cz" # the base hostname & protocol for your site
+url: "http://bydlenimukarov.cz" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
